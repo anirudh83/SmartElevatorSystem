@@ -1,4 +1,4 @@
-package com.anirudh;
+package com.anirudh.event;
 
 /**
  * Created by anirudh on 23/09/14.

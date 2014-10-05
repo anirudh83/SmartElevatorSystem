@@ -1,4 +1,7 @@
-package com.anirudh;
+package com.anirudh.event;
+
+import com.anirudh.event.EventManager;
+import com.anirudh.event.InProcessElevatorEventManager;
 
 /**
  * Created by anirudh on 05/10/14.

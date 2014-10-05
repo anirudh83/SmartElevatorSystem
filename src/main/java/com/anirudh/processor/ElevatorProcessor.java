@@ -1,11 +1,15 @@
-package com.anirudh;
+package com.anirudh.processor;
+
+import com.anirudh.event.Event;
+import com.anirudh.model.Direction;
+import com.anirudh.model.Elevator;
 
 /**
  * Created by anirudh on 05/10/14.
  */
 public class ElevatorProcessor implements Processor {
 
-    private Elevator elevator = new Elevator(0,Direction.STILL);
+    private Elevator elevator = new Elevator(0, Direction.STILL);
 
     public void process(Event event) {
         event.getToFloor();
